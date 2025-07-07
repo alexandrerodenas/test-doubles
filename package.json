@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npx tsc && node build/src/main.js"
+    "start": "npx tsc && node build/src/application/app.js",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -11,6 +12,10 @@
   "dependencies": {
     "@types/jest": "^30.0.0",
     "jest": "^30.0.3",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "ts-jest": "^29.4.0"
   }
 }
