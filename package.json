@@ -1,0 +1,16 @@
+{
+  "name": "test-doubles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node build/src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.3",
+    "typescript": "^5.8.3"
+  }
+}
